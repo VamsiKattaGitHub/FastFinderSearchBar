@@ -52,16 +52,19 @@ function App() {
           <span>:</span>
           <p>{selectedCountry.country}</p>
           </div>
+          <hr />
           <div className='new'>
           <strong>Capital</strong> 
           <span>:</span>
           <p>{selectedCountry.capital}</p>
           </div>
+          <hr />
           <div className='new'>
           <strong>Population</strong> 
           <span>:</span>
           <p>{selectedCountry.population}</p>
           </div>
+          <hr />
           <div className='new'>
           <strong>Language</strong> 
           <span>:</span>
@@ -69,6 +72,7 @@ function App() {
                 selectedCountry.official_language.join(', ') : 
                 selectedCountry.official_language}</p>
           </div>
+          <hr />
           <div className='new'>
           <strong>Currency</strong> 
           <span>:</span>
