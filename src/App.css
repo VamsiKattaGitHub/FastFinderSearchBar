@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+  font-family: Roboto;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  color: white;
+}
+body{
+  background: rgba(0, 0, 0, 0.792);
+}
+.App{
+  width:90%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 500;
+  user-select: none;
+}
+.heading{
+  font-size: 30px;
+  color: white;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.heading1{
+  font-size: 30px;
+  color: white;
+  font-family: "Protest Guerrilla", sans-serif;
+  letter-spacing: 8px;
+}
+.input
+{
+  width:100%;
+  margin-top: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border:none;
+  background-color: white;
+  color:black;
+  outline: none;
+  transition:  outline 0.15s ease;
+}
+.input:focus{
+  outline: 2px solid rgba(16, 16, 235, 0.979);
+  outline-offset: 2px;
+}
+.searchResults{
+  text-align: start;
+  margin-top: 5px;
+  width:100%;
+  box-sizing: border-box;
+}
+.searchResults ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width:100%;
+}
+.searchResults ul li{
+  margin-top: 5px;
+  padding: 3px;
+  width: 100%;
+  box-sizing: border-box; 
+  padding-left:20px;
+  font-size: 17px;
+}
+.searchResults ul li:hover{
+  background-color: rgb(188, 180, 180);
+}
+
+.countryDetails {
+  margin-top: 20px;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.countryDetails h2 {
+  margin-bottom: 10px;
+}
+.heading1 {
+  margin-bottom: 15px;
+}
+
+.new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+strong {
+  letter-spacing: 6px;
+  flex: 1; 
+}
+
+span {
+  margin: 0 10px; 
+}
+
+p {
+  flex: 2; 
+}
